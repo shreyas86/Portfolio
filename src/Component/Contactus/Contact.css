@@ -1,0 +1,118 @@
+.contact{
+    display: flexs;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 30px;
+}
+
+.contact-title h1{
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    font-size: max(3.3vw,24px);
+    font-weight: 600;
+    color: #ffcb9a;
+    text-align: center;
+}
+.contact-section{
+    display: flex;
+    gap: 80px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    color: #ffcb9a;
+}
+.contact-left h1{
+    font-size: max(3.3vw,24px);
+   font-weight: 700;
+}
+.contact-left p{
+    font-size: 18px;
+}
+.c{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-decoration:underline;
+}
+.detail{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-direction: row;
+}
+.detail a{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    margin: auto;
+    color: #ffcb9a;
+}
+.contact-right label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-right input{
+    border: none;
+    width: 350px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #D1e8e2;
+    color: #2c3531;
+    font-size: 16px;
+}
+.contact-right textarea{
+    width: 350px;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #D1e8e2;
+    color: #2c3531;
+    font-size: 16px;
+}
+.contact-submit{
+    border: none;
+    color: #d9b08c;
+    background-color:white ;
+    border-radius: 50px;
+    border: 2px solid #d9b08c;
+    font-size: max(1.2vw,16px);
+    padding: 10px 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+.contact-submit:hover{
+    transform: scale(1.05);
+}
+@media (max-width:768px) {
+    .contact-section{
+       display: flex;
+        flex-direction: column;
+       
+    }
+    .contact-right input{
+        width: 70vw;
+        height: 10vw;
+
+    }
+    .contact-right textarea{
+        width: 70vw;
+       
+    }
+   
+
+}

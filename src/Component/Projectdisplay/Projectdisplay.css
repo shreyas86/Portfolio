@@ -1,0 +1,23 @@
+.projectdisplay{
+    margin:30px 0px;
+}
+.projectdisplay h1{
+    font-size: max(3.3vw,22px);
+    color: #ffcb9a;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    row-gap:50px;
+    gap: 50px;
+}
+
+hr{
+    margin: 10px 0px;
+    height:  2px;
+    background-color: #e2e2e2;
+    border: none;
+    width: 80vw;
+    margin: 20px auto;
+}

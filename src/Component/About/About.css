@@ -1,0 +1,77 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    /* max-width:70%; */
+}
+.about h2{
+    font-size: max(2.5vw,22px);
+    padding-bottom: 6px;
+    color: #ffcb98;
+
+}
+
+.about span{
+    font-weight: 600;
+    font-size: max(1.1vw,15px);
+}
+.about ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about li{
+    font-size: max(1vw,16px);
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+}
+.about li ::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffcb98;
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+    gap :30px;
+}
+.buttons .btn{
+    display: flex;
+    padding:0.7vw 2vw;
+    border-radius: 50px;
+    border: 2px solid #d9b08c;
+    background-color: white;
+    color: #d9b08c;
+    font-weight: 500;
+    font-size: max(1.1vw,15px);
+    cursor: pointer;
+    transition:  ease 0.2s;
+}
+.buttons .btn:hover{
+    transform: scale(1.05);
+}
+.about hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+    width: 80vw;
+    margin: 20px auto;
+    
+}
+@media (max-width:768px) {
+   
+    .buttons .btn{
+    font-size: max(0.9vw,12.5px);
+}
+.about li{
+    font-size: max(0.9vw,12px);
+    margin-bottom: 5px;
+}
+}

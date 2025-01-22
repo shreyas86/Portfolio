@@ -7,28 +7,28 @@ const Projectdisplay = () => {
         {
           id:1,
           name:"Quiz",
-          imgurl:"public/Quiz.jpg",
+          imgurl:"/public/Quiz.jpg",
           url:" https://shreyas86.github.io/quiz/",
           discription:"Quiz is a fun website with basic general knowledge questions across various topics. built with simple HTML ,CSS and Java Script."
         },
         {
           id:2,
           name:"Weathercast",
-          imgurl:"public/weather.jpg",
+          imgurl:"/public/weather.jpg",
           url:"https://shreyas86.github.io/weather-app/",
           discription:"WeatherCast offers accurate,real-time weather updates for any location.Stay informed with detailed information on temperature,windspeed, and more."
         },
         {
           id:3,
           name:"Tomato",
-          imgurl:"public/tomato.jpg",
+          imgurl:"/public/tomato.jpg",
           url:"https://tomato-sable.vercel.app/",
           discription:"Tomato is a user-friendly food ordering website built with React, offering seamless navigation and quick access to your favorite meals. "
         },
         {
-          id:3,
+          id:4,
           name:"Spotify",
-          imgurl:"public/spotify.jpg",
+          imgurl:"/public/spotify.jpg",
           url:"https://shreyas86.github.io/spotify/",
           discription:"A simple Spotify clone built with JavaScript that mimics the basic layout and functionality of the popular music streaming platform. "
         }

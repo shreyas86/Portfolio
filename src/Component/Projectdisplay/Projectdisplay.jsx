@@ -21,7 +21,7 @@ const Projectdisplay = () => {
         {
           id:3,
           name:"Tomato",
-          imgurl:"/tomato.jpg",
+          imgurl:"/Tomato.jpg",
           url:"https://tomato-sable.vercel.app/",
           discription:"Tomato is a user-friendly food ordering website built with React, offering seamless navigation and quick access to your favorite meals. "
         },

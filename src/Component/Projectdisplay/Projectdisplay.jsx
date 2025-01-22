@@ -1,28 +1,36 @@
 import React from 'react'
 import "./Projectdisplay.css"
 import Project from '../project/Project'
+
 const Projectdisplay = () => {
     const projectitem=[
         {
           id:1,
           name:"Quiz",
-          imgurl:"src/assets/Quiz.jpg",
+          imgurl:"public/Quiz.jpg",
           url:" https://shreyas86.github.io/quiz/",
           discription:"Quiz is a fun website with basic general knowledge questions across various topics. built with simple HTML ,CSS and Java Script."
         },
         {
           id:2,
           name:"Weathercast",
-          imgurl:"src/assets/weather.jpg",
+          imgurl:"public/weather.jpg",
           url:"https://shreyas86.github.io/weather-app/",
           discription:"WeatherCast offers accurate,real-time weather updates for any location.Stay informed with detailed information on temperature,windspeed, and more."
         },
         {
-          id:2,
+          id:3,
           name:"Tomato",
-          imgurl:"src/assets/tomato.jpg",
-          url:"https://shreyas86.github.io/weather-app/",
+          imgurl:"public/tomato.jpg",
+          url:"https://tomato-sable.vercel.app/",
           discription:"Tomato is a user-friendly food ordering website built with React, offering seamless navigation and quick access to your favorite meals. "
+        },
+        {
+          id:3,
+          name:"Spotify",
+          imgurl:"public/spotify.jpg",
+          url:"https://shreyas86.github.io/spotify/",
+          discription:"A simple Spotify clone built with JavaScript that mimics the basic layout and functionality of the popular music streaming platform. "
         }
       ]
   return (

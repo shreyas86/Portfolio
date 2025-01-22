@@ -7,10 +7,10 @@ const About = () => {
       <h2>Shreyas Hegde</h2>
       <ul>
       <li><span>From: </span>Karnataka, India</li>
-      <li><span>Education: </span>Computer science Engineering in deploma</li>
+      <li><span>Education: </span>Computer science Engineering in diploma</li>
       <li><span>Studying At: </span> S N M Polytechnic</li>
       <li><span>Age: </span>20</li>
-      <li><span>Gender: </span> male</li>
+      <li><span>Gender: </span> Male</li>
       </ul>
       <div className="buttons">
       <a href="https://github.com/shreyas86" >

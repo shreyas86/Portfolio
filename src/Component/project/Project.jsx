@@ -14,7 +14,7 @@ const Project = ({name,discription,imgurl,url}) => {
       </div>
       <div className="viewbtn">
         <a href={url}>
-        <button className='v-btn'>View project</button>
+        <button className='v-btn'>View Project</button>
         </a>
       </div>
 

@@ -12,7 +12,7 @@ const Header = () => {
       </div>
       
       <div className="my-img">
-        <img src="public/myimg.jpg" alt="" />
+        <img src="/myimg.jpg" alt="" />
       </div>
       </div>
     </div>

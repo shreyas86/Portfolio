@@ -6,10 +6,8 @@ const Contact= () => {
     const formData = new FormData(event.target);
 
     formData.append("access_key", "42e2703b-9949-4b5e-a4f2-32babbd257e9");
-
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -21,7 +19,6 @@ const Contact= () => {
 
     if (res.success) {
       alert(res.message);
-    
     }
   };
   return (

@@ -15,7 +15,7 @@ const About = () => {
       <div className="buttons">
       <a href="https://github.com/shreyas86" >
         <button className="btn">Visit My Github</button></a>
-        <a href='/shreyashgdresume.pdf' download="shreyashgdresume.pdf">
+        <a href='/shreyas_resume.pdf' download="shreyas_resume.pdf">
         <button  className="btn">Download Resume</button></a>
       </div>
       <hr/>

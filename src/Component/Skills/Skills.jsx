@@ -17,7 +17,8 @@ const Skills = () => {
         <progress value="70" max="100"></progress>
         <p><i className="fa-brands fa-react"></i>React js</p>
         <progress value="70" max="100"></progress>
-      
+        <p><i class="fa-solid fa-database"></i>Mongodb</p>
+        <progress value="70" max="100"></progress>
     </div>
   )
 }

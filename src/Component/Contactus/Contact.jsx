@@ -5,7 +5,7 @@ const Contact= () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "42e2703b-9949-4b5e-a4f2-32babbd257e9");
+    formData.append("access_key", "6b099e9f-55a3-4b98-a43f-ebc6972d2cf9");
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
     const res = await fetch("https://api.web3forms.com/submit", {
@@ -33,7 +33,7 @@ const Contact= () => {
             <div className="contact-detail">
               <p className='c'>contact me</p>
               <div className="detail">
-              <i className="fa-solid fa-envelope"></i><p>hegdeshreyas@gmail.com</p>
+              <i className="fa-solid fa-envelope"></i><p>shreyasin153@gmail.com</p>
               </div>
             </div>
             <div className="contact-detail">
